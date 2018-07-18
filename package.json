@@ -1,0 +1,55 @@
+{
+  "name": "react-lol",
+  "version": "1.0.0",
+  "description": "lol 简单的信息查看页面",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --mode production --optimize-minimize",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lele88lala/react-lol.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lele88lala/react-lol/issues"
+  },
+  "homepage": "https://github.com/lele88lala/react-lol#readme",
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0-beta.52",
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "optimize-css-assets-webpack-plugin": "^4.0.3",
+    "postcss-loader": "^2.1.5",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.52",
+    "@babel/preset-env": "^7.0.0-beta.52",
+    "@types/prop-types": "^15.5.3",
+    "babel-loader": "^8.0.0-beta.4",
+    "lodash": "^4.17.10",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
