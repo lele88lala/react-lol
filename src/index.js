@@ -16,7 +16,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HelloReact from './components/HelloReact';
+import MyInfo from './components/MyInfo';
 import './styles/main.scss';
 // ReactDOM.render(
 //   <h1>
@@ -26,11 +26,7 @@ import './styles/main.scss';
 // );
 ReactDOM.render(
   <div>
-    <HelloReact />
-    <HelloReact />
-    <HelloReact text="World" />
-    <HelloReact text="Bai" />
-    <HelloReact />
+    <MyInfo />
   </div>,
   document.getElementById('root'),
 );

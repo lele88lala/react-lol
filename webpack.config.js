@@ -46,7 +46,13 @@ module.exports = {
           { loader: "sass-loader", options: { sourceMap: true } },
           { loader: "postcss-loader", options: { sourceMap: 'inline' } },
         ]
-      }
+      },
+      {
+        // 图片加载器，雷同file-loader，更适合图片，可以将较小的图片转成base64，减少http请求
+        // 如下配置，将小于8192byte的图片转成base64码
+          test: /\.(png|jpg|gif)$/,
+          loader: 'url-loader?limit=8192&name=../images/[name].[ext]?[hash]',
+        }
     ]
   },
   plugins: [
