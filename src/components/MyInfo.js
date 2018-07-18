@@ -14,7 +14,7 @@ export default class MyInfo extends React.Component {
   render() {
     return (
       <div>
-        <img src={headPic} alt="hehe" />
+        <img src={headPic} alt="head pic" />
       </div>
     );
   }
