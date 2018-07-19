@@ -6,12 +6,13 @@ div {
     color: black;
 }
 .mine{
-  width:100%;
+  display:inline-block;
+  width:20%;
   height:100vh;
 }
 .my-info {
   background-color:#ff99cc;
-  width:20%;
+  width:100%;
   height:25%;
   text-align: center;
   .head-image{
@@ -21,7 +22,7 @@ div {
   }
 }
 .my-friends{
-  width:20%;
+  width:100%;
   height:75%;
   margin-top:4px;
   background-color:#ccccff;
@@ -43,5 +44,43 @@ div {
       margin-left:15px;
       vertical-align: middle;
     }
+  }
+}
+
+// 新闻模块
+.news-wrapper{
+  display:inline-block;
+  background-color:#9999ff;
+  width:80%;
+  height:25vh;
+  vertical-align: top;
+  span{
+    display:inline-block;
+    background: #99ccff;
+    padding:10px 60px;
+    margin-left:20px;
+    transform: translateY(46%);
+  }
+}
+
+// 中央区域
+.main-wrapper{
+  position: absolute;
+  top:25vh;
+  height:75.5vh;
+  left:20%;
+  width:80%;
+  background-color:#33ffcc;
+  .aganist-info{
+    width:40%;
+    background-color:#cc6699;
+    margin-top:10px;
+    margin-left:50px;
+  }
+  img{
+    width:70;
+    height:70px;
+    border-radius: 50%;
+    vertical-align: middle
   }
 }

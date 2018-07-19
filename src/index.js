@@ -17,6 +17,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import MyInfo from './components/MyInfo';
+import News from './components/News';
+import Main from './components/Main';
 import './styles/main.scss';
 // ReactDOM.render(
 //   <h1>
@@ -25,8 +27,10 @@ import './styles/main.scss';
 //   document.getElementById('root'),
 // );
 ReactDOM.render(
-  <div>
+  <div className="wrapper">
     <MyInfo />
+    <News />
+    <Main />
   </div>,
   document.getElementById('root'),
 );
